@@ -10,3 +10,11 @@ def Fibonacci(n):
     # then it will return 0
     elif n == 0:
         return 0
+
+    # Check if n is 1,2
+    # it will return 1
+    elif n == 1 or n == 2:
+        return 1
+
+    else:
+        return Fibonacci(n-1) + Fibonacci(n-2)
