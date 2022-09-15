@@ -5,3 +5,8 @@ def Fibonacci(n):
     # print incorrect input
     if n < 0:
         print("Incorrect input")
+
+    # Check if n is 0
+    # then it will return 0
+    elif n == 0:
+        return 0
